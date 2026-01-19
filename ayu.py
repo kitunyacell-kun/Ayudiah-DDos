@@ -45,9 +45,10 @@ print("""
 \033[32m║\033[33m  Y A S E E N   T H U N D E R   S C R I P T   D D 0 S      \033[32m║
 \033[32m╚═══════════════════════════════════════════════════════════╝
 """)
+print("\033[33m┏━━━━━━━⬣")
 ip = input("\033[33m[+] Target's IP : ")
 time.sleep(5),
-print("\033[32m     Yaseen thunder \033[0m "),
+print("\033[32m     Yaseen th")under \033[0m "),
 time.sleep(5),
 print("\033[33m     a weapon of mass destructions \033[0m "),
 time.sleep(5),
